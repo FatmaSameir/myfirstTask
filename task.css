@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-color: wheat;
+font-family: sans-serif;
+box-sizing: border-box;
+
+}
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%; /* Four links of equal widths */
+    text-align: center;
+  }
+  .navbar a.home{
+      background-color: #ffc107;
+  }
+ul{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    list-style: none;
+}
+ul a:hover{
+    background-color: red;
+}
+
+.column {
+    float: left;
+    padding: 5px;
+    width: 30%;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .ContactUs{
+    left: 40%;
+    width: 250px;
+    height: 320px;
+    background: #000;
+    color: #fff;
+    position: absolute;
+padding: 20px 10px 100px 20px ;
+}
+.ContactUs a{
+    text-align: center;
+font-size: 12px;
+line-height: 17px;
+color: darkgray;
+text-decoration: none;
+}
+.ContactUs a:hover{
+    color: #ffc107;
+}
+.ContactUs input{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.ContactUs input:hover{
+    background: #ffc107;
+    color: #000;
+}
+.ContactUs input[type="submit"]{
+    border-radius: 20px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    background: #fb2525;
+    font-size: 15px;
+    outline: none;
+}
+button{
+    width: 120px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    padding: 10px 14px;
+    background-color: red;
+    font-size: 15px;
+}
+  
